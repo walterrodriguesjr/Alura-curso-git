@@ -1,0 +1,29 @@
+1 - git init - Inicializa um repositorio para determinado arquivo
+
+2 - git status - mostra qual foram as alterações feitas no arquivo
+
+3 - git add . - adiciona as alterações para o que irá ser commitado
+
+4 - git commit -m " "  - cmd para fazer o commit, seguido de uma mensagem do q foi alterado
+
+5 - git log - serve para mostrar as alterações e commit que já foram feitas no codigo
+
+6 - git config --local - serve para definir as onfigurações para este projeto em questão (ex: alterar nome do user, e-mail)
+
+7 - git log --oneline - serve para resumir as informações passadas por git log (mostra apenas inicio no reash, mensagem do commit) somente o necessário
+
+8 - git log -p - serve para mostrar detalhado o que foi alterado no codigo
+
+9 - Usa o mkdir para criar uma nova pasta como exemplo, servidor - git init --bare , cria uma pasta pura para envio de arquivos deste projeto, git remote add "nome"caminho
+cria um git remoto na pasta informada
+git init --bare  Com este comando nós criamos um repositório que não terá a working tree, ou seja, não conterá uma cópia dos nossos arquivos. Como o repositório servirá 
+apenas como servidor, para que outros membros da equipe sincronizem seus trabalhos, poupamos espaço de armazenamento desta forma.
+
+10 - git clone serve para copiar dados de uma pasta de repositorio para uma nova pasta (após o git clone é preciso parra o endereço da pasta a ser clonada, ex: 
+C:/Users/parana/Documents/wrj/Git/servidor/ )
+
+ATÉ AGORA FOI FALADO O CAMINHO PARA UM REPOSITÓRIO REMOTO
+
+
+
+
